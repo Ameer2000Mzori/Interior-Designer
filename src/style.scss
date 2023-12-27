@@ -95,6 +95,13 @@ body {
         background-color: blue;
         display: block;
         position: relative;
+
+        #bars {
+          height: 3px;
+          width: 100%;
+          color: white;
+          background-color: white;
+        }
       }
     }
   }

@@ -94,6 +94,13 @@ body {
   position: relative;
 }
 
+.navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap #bars {
+  height: 3px;
+  width: 100%;
+  color: white;
+  background-color: white;
+}
+
 .navbar .navlinks {
   position: absolute;
   display: none;
