@@ -6,6 +6,7 @@ $fontThree: "Kanit", sans-serif;
 
 body {
   padding: 0;
+  background-color: #121212;
   margin: 0;
 }
 //  navbar
@@ -40,6 +41,23 @@ body {
 
       .nav-Img {
         //
+      }
+
+      .nav-Text-Wrap {
+        .nav-Name-Text-1 {
+          padding: 0;
+          margin: 0;
+          font-family: $fontThree;
+          color: #ccc;
+        }
+
+        .nav-Name-Text-2 {
+          font-family: $fontTwo;
+          letter-spacing: 1px;
+          color: #757575;
+          padding: 0;
+          margin: 0;
+        }
       }
     }
   }
