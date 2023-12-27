@@ -96,10 +96,10 @@ body {
         position: relative;
 
         #bars {
-          height: 3px;
+          height: 4px;
           width: 100%;
-          color: white;
-          background-color: white;
+          border-radius: 15px;
+          background-color: rgb(224, 224, 224);
           transition: all 150ms ease-in-out;
         }
 
