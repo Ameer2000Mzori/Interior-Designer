@@ -14,10 +14,11 @@ body {
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navbar .navbar-Left {
-  width: 50%;
+  width: 45%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -71,7 +72,7 @@ body {
 
 .navbar .navbar-Right {
   height: 100%;
-  width: 50%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -97,6 +98,7 @@ body {
   width: 100%;
   color: white;
   background-color: white;
+  transition: all 150ms ease-in-out;
 }
 
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-One {
@@ -114,6 +116,22 @@ body {
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-Three {
   position: absolute;
   top: 35px;
+  left: 0;
+}
+
+.navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover {
+  cursor: pointer;
+}
+
+.navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover .bar-One {
+  position: absolute;
+  top: 11px;
+  left: 0;
+}
+
+.navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover .bar-Three {
+  position: absolute;
+  top: 39px;
   left: 0;
 }
 
