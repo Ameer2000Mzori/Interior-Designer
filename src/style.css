@@ -56,14 +56,17 @@ body {
   font-weight: 700;
   padding: 0;
   margin: 0;
+  height: 20px;
 }
 
 .navbar .navbar-Left .navbar-Left-Wrap .nav-Text-Wrap .nav-Name-Text-2 {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
   color: #757575;
   padding: 0;
   margin: 0;
+  height: 20px;
+  font-size: 1rem;
 }
 
 .navbar .navlinks {
