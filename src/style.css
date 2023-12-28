@@ -383,3 +383,12 @@ body {
   width: 360px;
   height: 160px;
 }
+
+.header .header-wrapper .header-text-1 {
+  font-family: "Raleway", sans-serif;
+  color: #858383;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 5px;
+}
