@@ -351,3 +351,9 @@ body {
   top: 0;
   z-index: -1;
 }
+
+.background-Deco-Wrap #triangels {
+  height: 600px;
+  width: 500px;
+  border: solid rgb(97, 97, 97) 1px;
+}
