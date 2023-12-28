@@ -477,7 +477,16 @@ body {
 
       .about-Left-Wrap {
         height: 75%;
-        width: 35%;
+        width: 45%;
+
+        .about-Left-Wrap-Img {
+          background-image: url("./assets/about.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
       }
     }
 
