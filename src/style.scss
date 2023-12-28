@@ -546,7 +546,7 @@ body {
 
           .about-Text-2 {
             position: absolute;
-            font-size: 2rem;
+            font-size: 1rem;
             color: white;
             font-family: $fontTwo;
             top: -3rem;
@@ -573,6 +573,21 @@ body {
           height: 50px;
           display: flex;
           gap: 25px;
+
+          #buttons-Links {
+            height: 50px;
+            width: 50px;
+            background-color: #2e2e2e;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+          }
         }
       }
     }
