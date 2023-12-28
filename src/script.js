@@ -27,21 +27,20 @@ var changeBoolan = false;
 var changeTitles = function () {
     setInterval(function () {
         changeBoolan ? firstTitle() : secondTitle();
+        timeCount++;
     }, 1000);
 };
 // first title function
 var firstTitle = function () {
     if (timeCount < 5) {
-        timeCount++;
         console.log(timeCount);
     }
     else if (timeCount < 6) {
-        headertext1.classList.add("active");
-        headertext2.classList.add("active");
-        timeCount++;
+        activateMode();
         console.log(timeCount);
     }
     else if (timeCount < 7) {
+        console.log(timeCount);
         headertext1.textContent = "HELLO I AM";
         headertext2.textContent = "ANN SMITH";
         headertext1.classList.remove("active");
@@ -53,16 +52,14 @@ var firstTitle = function () {
 // second title function
 var secondTitle = function () {
     if (timeCount < 5) {
-        timeCount++;
         console.log(timeCount);
     }
     else if (timeCount < 6) {
-        headertext1.classList.add("active");
-        headertext2.classList.add("active");
-        timeCount++;
+        activateMode();
         console.log(timeCount);
     }
     else if (timeCount < 7) {
+        console.log(timeCount);
         headertext1.textContent = "I'M FROM LONDON";
         headertext2.textContent = "AN INTERIOR DESIGHNER";
         headertext1.classList.remove("active");
@@ -70,6 +67,11 @@ var secondTitle = function () {
         changeBoolan = true;
         timeCount = 0;
     }
+};
+// activatedMode function
+var activateMode = function () {
+    headertext1.classList.add("active");
+    headertext2.classList.add("active");
 };
 // eventlinsters
 window.addEventListener("load", changeTitles);
