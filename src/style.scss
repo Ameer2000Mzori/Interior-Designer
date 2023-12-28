@@ -589,6 +589,15 @@ body {
             font-size: 1.5rem;
           }
         }
+
+        .contact-Me-Wrap {
+          display: flex;
+          flex-direction: column;
+          text-align: start;
+          align-items: start;
+          justify-content: center;
+          gap: 15px;
+        }
       }
     }
   }

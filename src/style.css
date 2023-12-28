@@ -565,3 +565,12 @@ body {
   border-radius: 50%;
   font-size: 1.5rem;
 }
+
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+  justify-content: center;
+  gap: 15px;
+}
