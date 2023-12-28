@@ -596,7 +596,13 @@ body {
           text-align: start;
           align-items: start;
           justify-content: center;
-          gap: 15px;
+          margin-top: 1.5rem;
+
+          .contact-Title-Text {
+            color: white;
+            font-family: $fontTwo;
+            font-size: 1rem;
+          }
         }
       }
     }
