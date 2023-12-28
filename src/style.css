@@ -149,7 +149,7 @@ body {
 }
 
 .navbar .navlinks .nav-Bars-Wrap {
-  position: relative;
+  position: absolute;
   height: 20%;
   width: 80%;
 }
@@ -190,10 +190,32 @@ body {
 
 .navbar .navlinks .nav-Left-Right-wrapper {
   width: 100%;
-  height: 80%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   text-align: center;
   align-items: center;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Left {
+  width: 30%;
+  height: 100%;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper {
+  position: absolute;
+  left: 15px;
+  height: 50%;
+  width: 50%;
 }
