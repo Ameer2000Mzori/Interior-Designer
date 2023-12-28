@@ -229,13 +229,20 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
   position: relative;
 }
 
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper {
   position: absolute;
   left: 15px;
+  top: 23%;
   height: 50%;
   width: 50%;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Title-Text {
+  font-size: 2.6rem;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: white;
 }

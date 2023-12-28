@@ -233,14 +233,22 @@ body {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        justify-content: center;
+        // justify-content: center;
         position: relative;
 
         .navlinks-Right-Wrapper {
           position: absolute;
           left: 15px;
+          top: 23%;
           height: 50%;
           width: 50%;
+
+          .navlinks-Title-Text {
+            font-size: 2.6rem;
+            font-weight: 500;
+            font-family: $fontTwo;
+            color: white;
+          }
         }
       }
     }
