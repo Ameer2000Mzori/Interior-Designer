@@ -420,3 +420,12 @@ body {
     font-size: 1.5rem;
   }
 }
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
