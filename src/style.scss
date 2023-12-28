@@ -381,5 +381,17 @@ body {
     height: 600px;
     width: 500px;
     border: solid rgb(97, 97, 97) 1px;
+    position: absolute;
+    transform: rotate(15deg);
+  }
+
+  .triangel-One {
+    bottom: -5rem;
+    right: -15rem;
+  }
+
+  .triangel-Two {
+    top: -5rem;
+    left: -15rem;
   }
 }
