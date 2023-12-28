@@ -378,3 +378,8 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+.header .header-wrapper {
+  width: 360px;
+  height: 160px;
+}
