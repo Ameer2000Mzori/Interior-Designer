@@ -626,47 +626,23 @@ body {
   .about .about-Wrap .about-Right {
     width: 60%;
     height: 80%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .about .about-Wrap .about-Right .about-Right-Wrap {
     width: 80%;
     height: 80%;
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    align-items: start;
-    justify-content: center;
-  }
-
-  .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap {
-    position: relative;
-    text-align: center;
-    align-items: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-1 {
-    position: absolute;
     font-size: 7.5rem;
     color: #2e2e2e;
     font-family: "Kanit", sans-serif;
     top: -10rem;
     z-index: -15;
-    padding: 0;
-    margin: 0;
-    letter-spacing: 5px;
     left: -1rem;
   }
 
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-2 {
-    position: absolute;
     font-size: 1.5rem;
     top: -5rem;
   }
@@ -674,5 +650,48 @@ body {
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-3 {
     font-size: 0.7rem;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .about-Wrap {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about .about-Wrap .about-Left {
+    display: none;
+  }
+
+  .about .about-Wrap .about-Right {
+    width: 90%;
+    height: 90%;
+  }
+
+  .about .about-Wrap .about-Right .about-Right-Wrap {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-1 {
+    font-size: 4.5rem;
+  }
+
+  .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-2 {
+    font-size: 1.4rem;
+  }
+
+  .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-3 {
+    font-size: 0.6rem;
+  }
+
+  .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap {
+    margin-top: 1rem;
+  }
+
+  .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .contact-Title-Text {
+    font-size: 0.7rem;
   }
 }
