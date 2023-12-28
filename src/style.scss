@@ -521,10 +521,15 @@ body {
         flex-direction: column;
         text-align: start;
         align-items: start;
-        justify-content: center;
+        justify-content: flex-end;
 
         .about-Text-Wrap {
           position: relative;
+          text-align: end;
+          align-items: start;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
 
           .about-Text-1 {
             position: absolute;

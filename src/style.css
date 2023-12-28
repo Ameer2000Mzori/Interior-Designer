@@ -496,11 +496,16 @@ body {
   flex-direction: column;
   text-align: start;
   align-items: start;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap {
   position: relative;
+  text-align: end;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-1 {
