@@ -202,6 +202,15 @@ body {
   height: 100%;
 }
 
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Left .navlinks-Img {
+  background-image: url("./assets/nav.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right {
   width: 70%;
   height: 100%;
