@@ -294,5 +294,190 @@ body {
 }
 //Navbar responsvness
 @media screen and (max-width: 768px) {
-  // 768px size
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar-Left {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .navbar-Left-Wrap {
+        height: 100%;
+        width: 250px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 15px;
+        margin: 0;
+
+        .nav-Img {
+          border-radius: 50%;
+          width: 65px;
+          height: 65px;
+          background-image: url("./assets/designer.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+
+        .nav-Text-Wrap {
+          .nav-Name-Text-1 {
+            font-family: $fontTwo;
+            color: #ccc;
+            letter-spacing: 1px;
+            font-weight: 700;
+            padding: 0;
+            margin: 0;
+            height: 20px;
+          }
+
+          .nav-Name-Text-2 {
+            font-family: $fontTwo;
+            font-weight: 600;
+            color: #757575;
+            padding: 0;
+            margin: 0;
+            height: 20px;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .navbar-Right {
+      height: 100%;
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .navbar-Right-Wrap {
+        width: 50px;
+        height: 50px;
+        display: block;
+
+        .navbar-Bars-Wrap {
+          width: 100%;
+          height: 100%;
+          display: block;
+          position: relative;
+
+          #bars {
+            height: 4px;
+            width: 100%;
+            border-radius: 15px;
+            background-color: rgb(224, 224, 224);
+            transition: all 150ms ease-in-out;
+          }
+
+          .bar-One {
+            position: absolute;
+            top: 15px;
+            left: 0;
+          }
+
+          .bar-Two {
+            position: absolute;
+            top: 25px;
+            left: 0;
+          }
+
+          .bar-Three {
+            position: absolute;
+            top: 35px;
+            left: 0;
+          }
+        }
+
+        .navbar-Bars-Wrap:hover {
+          cursor: pointer;
+
+          .bar-One {
+            position: absolute;
+            top: 11px;
+            left: 0;
+          }
+
+          .bar-Three {
+            position: absolute;
+            top: 39px;
+            left: 0;
+          }
+        }
+      }
+    }
+    //  Navlinks Responsvness
+    .navlinks {
+      .nav-Bars-Wrap {
+        .nav-Close-Btn {
+          top: 25px;
+          right: 2.5rem;
+
+          #nav-Bars {
+            width: 100%;
+            height: 3px;
+            background-color: white;
+            border-radius: 15px;
+          }
+
+          .nav-Bar-One {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            transform: rotate(45deg);
+          }
+
+          .nav-Bar-Two {
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 25px;
+            right: 0;
+          }
+        }
+      }
+
+      .nav-Left-Right-wrapper {
+        .navlinks-Right {
+          .navlinks-Right-Wrapper {
+            width: 70%;
+
+            .navlinks-Title-Text {
+              font-size: 1.5rem;
+            }
+
+            .navlinks-Right-Wrap {
+              width: 100%;
+              height: 100%;
+
+              ul {
+                li {
+                  a {
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

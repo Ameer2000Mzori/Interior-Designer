@@ -284,3 +284,178 @@ body {
 .navbar .navlinks.active {
   transform: translateY(100%);
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar .navbar-Left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar .navbar-Left .navbar-Left-Wrap {
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .navbar .navbar-Left .navbar-Left-Wrap .nav-Img {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background-image: url("./assets/designer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .navbar .navbar-Left .navbar-Left-Wrap .nav-Text-Wrap .nav-Name-Text-1 {
+    font-family: "Raleway", sans-serif;
+    color: #ccc;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+  }
+
+  .navbar .navbar-Left .navbar-Left-Wrap .nav-Text-Wrap .nav-Name-Text-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #757575;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    font-size: 1rem;
+  }
+
+  .navbar .navbar-Right {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap {
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap #bars {
+    height: 4px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(224, 224, 224);
+    transition: all 150ms ease-in-out;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-One {
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-Two {
+    position: absolute;
+    top: 25px;
+    left: 0;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-Three {
+    position: absolute;
+    top: 35px;
+    left: 0;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover {
+    cursor: pointer;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover .bar-One {
+    position: absolute;
+    top: 11px;
+    left: 0;
+  }
+
+  .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover .bar-Three {
+    position: absolute;
+    top: 39px;
+    left: 0;
+  }
+
+  .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn {
+    top: 25px;
+    right: 2.5rem;
+  }
+
+  .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn #nav-Bars {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 15px;
+  }
+
+  .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-One {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transform: rotate(45deg);
+  }
+
+  .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-Two {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 25px;
+    right: 0;
+  }
+
+  .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper {
+    width: 70%;
+  }
+
+  .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Title-Text {
+    font-size: 1.5rem;
+  }
+
+  .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+}
