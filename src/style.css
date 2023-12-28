@@ -234,10 +234,14 @@ body {
 
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper {
   position: absolute;
-  left: 15px;
-  top: 23%;
-  height: 50%;
+  left: 50px;
+  top: 20%;
+  height: 60%;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Title-Text {
@@ -245,4 +249,32 @@ body {
   font-weight: 500;
   font-family: "Raleway", sans-serif;
   color: white;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap {
+  width: 40%;
+  height: 100%;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li {
+  display: flex;
+  padding: 0.3rem;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  color: #ccc;
+  transition: all 250ms ease-in-out;
+}
+
+.navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li a:hover {
+  color: orangered;
 }
