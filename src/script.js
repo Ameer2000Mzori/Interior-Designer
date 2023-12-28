@@ -26,8 +26,12 @@ var changeBoolan = true;
 // functions
 var changeTitles = function () {
     setInterval(function () {
-        console.log("hallo world");
+        changeBoolan ? firstTitle() : secondTitle();
     }, 1000);
 };
+// first title function
+var firstTitle = function () { };
+// second title function
+var secondTitle = function () { };
 // eventlinsters
 window.addEventListener("load", changeTitles);

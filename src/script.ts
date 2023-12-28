@@ -27,15 +27,21 @@ const headertext1 = document.getElementsByClassName("header-text-1")[0];
 const headertext2 = document.getElementsByClassName("header-text-2")[0];
 
 // gelobal variables
-const timeCount = 0;
-const changeBoolan = true;
+let timeCount = 0;
+let changeBoolan = true;
 
 // functions
 const changeTitles = () => {
   setInterval(() => {
-    console.log("hallo world");
+    changeBoolan ? firstTitle() : secondTitle();
   }, 1000);
 };
+
+// first title function
+const firstTitle = () => {};
+
+// second title function
+const secondTitle = () => {};
 
 // eventlinsters
 window.addEventListener("load", changeTitles);
