@@ -603,6 +603,23 @@ body {
             font-family: $fontTwo;
             font-size: 1rem;
           }
+
+          .email-Wrap {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 5px;
+
+            .email-Title {
+              color: #757575;
+              font-family: $fontTwo;
+            }
+
+            .email-Text {
+              color: #a31717;
+              font-family: $fontTwo;
+            }
+          }
         }
       }
     }

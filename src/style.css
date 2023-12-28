@@ -580,3 +580,20 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
 }
+
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Title {
+  color: #757575;
+  font-family: "Raleway", sans-serif;
+}
+
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Text {
+  color: #a31717;
+  font-family: "Raleway", sans-serif;
+}
