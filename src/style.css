@@ -146,6 +146,7 @@ body {
   top: 0;
   left: 0;
   background-color: #121212;
+  transition: all 500ms ease-in-out;
 }
 
 .navbar .navlinks .nav-Bars-Wrap {
@@ -277,4 +278,8 @@ body {
 
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li a:hover {
   color: orangered;
+}
+
+.navbar .navlinks.active {
+  transform: translateY(100%);
 }

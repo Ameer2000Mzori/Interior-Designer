@@ -151,6 +151,7 @@ body {
     top: 0;
     left: 0;
     background-color: #121212;
+    transition: all 500ms ease-in-out;
 
     .nav-Bars-Wrap {
       position: absolute;
@@ -284,5 +285,9 @@ body {
         }
       }
     }
+  }
+
+  .navlinks.active {
+    transform: translateY(100%);
   }
 }
