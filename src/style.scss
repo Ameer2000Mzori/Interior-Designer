@@ -162,6 +162,30 @@ body {
         position: absolute;
         top: 20px;
         right: 5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        #nav-Bars {
+          width: 100%;
+          height: 4px;
+          background-color: white;
+        }
+
+        .nav-Bar-One {
+          position: absolute;
+          top: 25px;
+          left: 0;
+          transform: rotate(45deg);
+        }
+
+        .nav-Bar-Two {
+          transform: rotate(-45deg);
+          position: absolute;
+          top: 25px;
+          right: 0;
+        }
       }
     }
 

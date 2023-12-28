@@ -159,6 +159,30 @@ body {
   position: absolute;
   top: 20px;
   right: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn #nav-Bars {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
+
+.navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-One {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-Two {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 25px;
+  right: 0;
 }
 
 .navbar .navlinks .nav-Left-Right-wrapper {
