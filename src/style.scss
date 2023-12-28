@@ -511,8 +511,18 @@ body {
       display: flex;
       flex-direction: column;
       text-align: center;
-      align-items: end;
+      align-items: center;
       justify-content: center;
+
+      .about-Right-Wrap {
+        width: 60%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: start;
+        justify-content: center;
+      }
     }
   }
 }
