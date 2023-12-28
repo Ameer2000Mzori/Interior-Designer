@@ -565,6 +565,8 @@ body {
             text-align: start;
             align-items: center;
             line-height: 2;
+            position: relative;
+            z-index: -15;
             width: 80%;
           }
         }
