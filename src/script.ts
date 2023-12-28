@@ -6,6 +6,12 @@ const navCloseBtn = document.getElementsByClassName("nav-Close-Btn")[0];
 
 // functions
 
+// Open Nav
+const openNav = () => {};
+
+// close Nav
+const closeNav = () => {};
+
 // eventlinsters
 navOpenBtn.addEventListener("click", openNav);
 navCloseBtn.addEventListener("click", closeNav);
