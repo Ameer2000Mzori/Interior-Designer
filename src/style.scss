@@ -469,7 +469,7 @@ body {
     justify-content: center;
 
     .about-Left {
-      width: 40%;
+      width: 30%;
       height: 80%;
       display: flex;
       flex-direction: column;
@@ -478,8 +478,8 @@ body {
       justify-content: center;
 
       .about-Left-Wrap {
-        height: 75%;
-        width: 45%;
+        height: 85%;
+        width: 60%;
 
         .about-Left-Wrap-Img {
           background-image: url("./assets/about.jpg");
@@ -521,15 +521,15 @@ body {
         flex-direction: column;
         text-align: start;
         align-items: start;
-        justify-content: flex-end;
+        justify-content: center;
 
         .about-Text-Wrap {
           position: relative;
-          text-align: end;
+          text-align: center;
           align-items: start;
           display: flex;
           flex-direction: column;
-          justify-content: flex-end;
+          justify-content: center;
 
           .about-Text-1 {
             position: absolute;
@@ -546,7 +546,7 @@ body {
 
           .about-Text-2 {
             position: absolute;
-            font-size: 1rem;
+            font-size: 2rem;
             color: white;
             font-family: $fontTwo;
             top: -3rem;
