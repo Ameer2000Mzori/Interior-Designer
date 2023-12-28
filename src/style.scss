@@ -152,6 +152,7 @@ body {
     left: 0;
     background-color: #121212;
     transition: all 500ms ease-in-out;
+    z-index: 100;
 
     .nav-Bars-Wrap {
       position: absolute;
@@ -290,6 +291,7 @@ body {
 
   .navlinks.active {
     transform: translateY(200%);
+    z-index: 100;
   }
 }
 //Navbar responsvness
@@ -486,6 +488,19 @@ body {
           background-size: cover;
           height: 100%;
           width: 100%;
+          position: relative;
+          z-index: -11;
+
+          &::before {
+            content: "";
+            position: absolute;
+            z-index: -10;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(29, 29, 29, 0.479);
+          }
         }
       }
     }
