@@ -32,14 +32,14 @@ var changeTitles = function () {
 };
 // first title function
 var firstTitle = function () {
-    if (timeCount < 5) {
+    if (timeCount < 3) {
         console.log(timeCount);
     }
-    else if (timeCount < 6) {
+    else if (timeCount < 4) {
         activateMode();
         console.log(timeCount);
     }
-    else if (timeCount < 7) {
+    else if (timeCount < 5) {
         console.log(timeCount);
         headertext1.textContent = "HELLO I AM";
         headertext2.textContent = "ANN SMITH";
@@ -51,14 +51,14 @@ var firstTitle = function () {
 };
 // second title function
 var secondTitle = function () {
-    if (timeCount < 5) {
+    if (timeCount < 3) {
         console.log(timeCount);
     }
-    else if (timeCount < 6) {
+    else if (timeCount < 4) {
         activateMode();
         console.log(timeCount);
     }
-    else if (timeCount < 7) {
+    else if (timeCount < 5) {
         console.log(timeCount);
         headertext1.textContent = "I'M FROM LONDON";
         headertext2.textContent = "AN INTERIOR DESIGHNER";

@@ -40,12 +40,12 @@ const changeTitles = () => {
 
 // first title function
 const firstTitle = () => {
-  if (timeCount < 5) {
+  if (timeCount < 3) {
     console.log(timeCount);
-  } else if (timeCount < 6) {
+  } else if (timeCount < 4) {
     activateMode();
     console.log(timeCount);
-  } else if (timeCount < 7) {
+  } else if (timeCount < 5) {
     console.log(timeCount);
     headertext1.textContent = "HELLO I AM";
     headertext2.textContent = "ANN SMITH";
@@ -58,12 +58,12 @@ const firstTitle = () => {
 
 // second title function
 const secondTitle = () => {
-  if (timeCount < 5) {
+  if (timeCount < 3) {
     console.log(timeCount);
-  } else if (timeCount < 6) {
+  } else if (timeCount < 4) {
     activateMode();
     console.log(timeCount);
-  } else if (timeCount < 7) {
+  } else if (timeCount < 5) {
     console.log(timeCount);
     headertext1.textContent = "I'M FROM LONDON";
     headertext2.textContent = "AN INTERIOR DESIGHNER";

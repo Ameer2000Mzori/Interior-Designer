@@ -282,7 +282,7 @@ body {
 }
 
 .navbar .navlinks.active {
-  transform: translateY(100%);
+  transform: translateY(200%);
 }
 
 @media screen and (max-width: 768px) {
