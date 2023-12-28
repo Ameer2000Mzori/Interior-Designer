@@ -581,19 +581,31 @@ body {
   font-size: 1rem;
 }
 
-.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap {
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap,
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap {
   padding: 0;
   margin: 0;
   display: flex;
   gap: 5px;
+  margin-bottom: 15px;
 }
 
-.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Title {
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Title,
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .phone-Title,
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap .email-Title,
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap .phone-Title {
   color: #757575;
   font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Text {
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Text,
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .phone-Text,
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap .email-Text,
+.about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap .phone-Text {
+  padding: 0;
+  margin: 0;
   color: #a31717;
   font-family: "Raleway", sans-serif;
 }
