@@ -438,5 +438,13 @@ body {
 }
 // styling size 768px
 @media screen and (max-width: 768px) {
-  // styling size 768px
+  .header {
+    .header-wrapper {
+      width: 350px;
+
+      .header-text-2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
 }
