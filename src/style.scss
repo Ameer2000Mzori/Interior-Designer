@@ -522,6 +522,21 @@ body {
         text-align: start;
         align-items: start;
         justify-content: center;
+
+        .about-Text-Wrap {
+          position: relative;
+
+          .about-Text-1 {
+            position: absolute;
+            font-size: 10rem;
+            color: #757575;
+            font-family: $fontThree;
+            top: -10rem;
+            z-index: -15;
+            padding: 0;
+            margin: 0;
+          }
+        }
       }
     }
   }

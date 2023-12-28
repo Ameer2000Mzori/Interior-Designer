@@ -498,3 +498,18 @@ body {
   align-items: start;
   justify-content: center;
 }
+
+.about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap {
+  position: relative;
+}
+
+.about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-1 {
+  position: absolute;
+  font-size: 10rem;
+  color: #757575;
+  font-family: "Kanit", sans-serif;
+  top: -10rem;
+  z-index: -15;
+  padding: 0;
+  margin: 0;
+}
