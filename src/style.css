@@ -544,3 +544,9 @@ body {
   line-height: 2;
   width: 80%;
 }
+
+.about .about-Wrap .about-Right .about-Right-Wrap .buttons-Wrap {
+  height: 50px;
+  display: flex;
+  gap: 25px;
+}
