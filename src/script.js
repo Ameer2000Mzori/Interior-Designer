@@ -21,5 +21,13 @@ navCloseBtn.addEventListener("click", closeNav);
 var headertext1 = document.getElementsByClassName("header-text-1")[0];
 var headertext2 = document.getElementsByClassName("header-text-2")[0];
 // gelobal variables
+var timeCount = 0;
+var changeBoolan = true;
 // functions
+var changeTitles = function () {
+    setInterval(function () {
+        console.log("hallo world");
+    }, 1000);
+};
 // eventlinsters
+window.addEventListener("load", changeTitles);
