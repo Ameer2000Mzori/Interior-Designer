@@ -28,7 +28,7 @@ const headertext2 = document.getElementsByClassName("header-text-2")[0];
 
 // gelobal variables
 let timeCount = 0;
-let changeBoolan = true;
+let changeBoolan = false;
 
 // functions
 const changeTitles = () => {
@@ -38,10 +38,44 @@ const changeTitles = () => {
 };
 
 // first title function
-const firstTitle = () => {};
+const firstTitle = () => {
+  if (timeCount < 5) {
+    timeCount++;
+    console.log(timeCount);
+  } else if (timeCount < 6) {
+    headertext1.classList.add("active");
+    headertext2.classList.add("active");
+    timeCount++;
+    console.log(timeCount);
+  } else if (timeCount < 7) {
+    headertext1.textContent = "HELLO I AM";
+    headertext2.textContent = "ANN SMITH";
+    headertext1.classList.remove("active");
+    headertext2.classList.remove("active");
+    changeBoolan = false;
+    timeCount = 0;
+  }
+};
 
 // second title function
-const secondTitle = () => {};
+const secondTitle = () => {
+  if (timeCount < 5) {
+    timeCount++;
+    console.log(timeCount);
+  } else if (timeCount < 6) {
+    headertext1.classList.add("active");
+    headertext2.classList.add("active");
+    timeCount++;
+    console.log(timeCount);
+  } else if (timeCount < 7) {
+    headertext1.textContent = "I'M FROM LONDON";
+    headertext2.textContent = "AN INTERIOR DESIGHNER";
+    headertext1.classList.remove("active");
+    headertext2.classList.remove("active");
+    changeBoolan = true;
+    timeCount = 0;
+  }
+};
 
 // eventlinsters
 window.addEventListener("load", changeTitles);
