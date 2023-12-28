@@ -380,8 +380,10 @@ body {
 }
 
 .header .header-wrapper {
-  width: 360px;
+  width: 580px;
   height: 160px;
+  z-index: -1;
+  position: relative;
 }
 
 .header .header-wrapper .header-text-1 {
@@ -400,7 +402,7 @@ body {
   font-weight: 600;
   padding: 0;
   margin: 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 5px;
   transition: 550ms ease-in-out;
 }

@@ -405,8 +405,10 @@ body {
   height: 100vh;
 
   .header-wrapper {
-    width: 360px;
+    width: 580px;
     height: 160px;
+    z-index: -1;
+    position: relative;
 
     .header-text-1 {
       font-family: $fontTwo;
@@ -424,7 +426,7 @@ body {
       font-weight: 600;
       padding: 0;
       margin: 0;
-      font-size: 3rem;
+      font-size: 2.5rem;
       letter-spacing: 5px;
       transition: 550ms ease-in-out;
     }
