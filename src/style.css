@@ -392,3 +392,13 @@ body {
   margin: 0;
   letter-spacing: 5px;
 }
+
+.header .header-wrapper .header-text-2 {
+  font-family: "Raleway", sans-serif;
+  color: #ccc;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
