@@ -482,4 +482,9 @@ body {
 .about .about-Wrap .about-Right {
   width: 60%;
   height: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: end;
+  justify-content: center;
 }
