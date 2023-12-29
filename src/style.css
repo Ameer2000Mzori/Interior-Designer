@@ -767,3 +767,22 @@ body {
   letter-spacing: 5px;
   font-size: 2.5rem;
 }
+
+.service .service-Wrap .service-Bottom {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.service .service-Wrap .service-Bottom .service-Bottom-Wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

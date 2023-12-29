@@ -799,5 +799,24 @@ body {
         }
       }
     }
+
+    .service-Bottom {
+      height: 80%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .service-Bottom-Wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 }
