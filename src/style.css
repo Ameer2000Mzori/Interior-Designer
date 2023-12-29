@@ -723,5 +723,23 @@ body {
   align-items: center;
   height: 90%;
   width: 90%;
+}
+
+.service .service-Wrap .service-Top {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   justify-content: center;
+}
+
+.service .service-Wrap .service-Top .service-Top-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
