@@ -86,7 +86,7 @@ const aboutWrap: any = document.getElementsByClassName("about-Wrap")[0];
 
 const aboutShow = () => {
   // check if window scroll y is higher then aboutEl height
-  if (window.scrollY > aboutEl.offsetHeight - 300) {
+  if (window.scrollY > aboutEl.offsetHeight - 600) {
     aboutWrap.classList.add("about-Active");
   } else {
     aboutWrap.classList.remove("about-Active");

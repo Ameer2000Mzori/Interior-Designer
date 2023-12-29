@@ -459,6 +459,8 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  z-index: -20;
 
   .about-Wrap {
     width: 90%;
