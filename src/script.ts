@@ -95,3 +95,12 @@ const aboutShow = () => {
 
 // eventlinsters
 window.addEventListener("scroll", aboutShow);
+//
+//
+// selecting element SERVICE
+
+// functions
+
+// check if window scroll y is higher then  height
+
+// eventlinsters
