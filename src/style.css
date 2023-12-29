@@ -799,3 +799,40 @@ body {
   font-size: 1rem;
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .service {
+    height: 1000px;
+  }
+
+  .service .service-Wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+  }
+
+  .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text .service-Top-Text-2 {
+    font-size: 2rem;
+  }
+
+  .service .service-Wrap .service-Bottom .service-Bottom-Wrap {
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id #service-Icons {
+    font-size: 1.8rem;
+  }
+
+  .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-1,
+  .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-2,
+  .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-3 {
+    font-size: 0.8rem;
+  }
+}
