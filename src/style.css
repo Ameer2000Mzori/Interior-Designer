@@ -743,3 +743,17 @@ body {
   justify-content: center;
   width: 50%;
 }
+
+.service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text {
+  width: 100%;
+  height: 100%;
+}
+
+.service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text .service-Top-Text-1 {
+  color: rgb(87, 86, 86);
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding: 0;
+  margin: 0;
+}
