@@ -810,7 +810,7 @@ body {
       justify-content: center;
 
       .service-Bottom-Wrap {
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         text-align: center;
@@ -822,6 +822,16 @@ body {
             #service-Icons {
               color: #a31717;
               font-size: 2.5rem;
+            }
+
+            .service-Text-Wrap {
+              .service-Text-1,
+              .service-Text-2,
+              .service-Text-3 {
+                font-family: $fontThree;
+                font-size: 1rem;
+                color: white;
+              }
             }
           }
         }
