@@ -430,6 +430,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .about .about-Wrap {
@@ -440,6 +441,13 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  transition: all 2500ms ease-in-out;
+  opacity: 1;
+}
+
+.about .about-Wrap:hover {
+  transform: translateY(200%);
+  opacity: 0;
 }
 
 .about .about-Wrap .about-Left {
