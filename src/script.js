@@ -90,17 +90,24 @@ window.addEventListener("scroll", aboutShow);
 //
 // selecting element SERVICE
 var serviceEl = document.getElementsByClassName("service")[0];
-var serviceTop = document.getElementsByClassName("service-Top")[0];
-var serviceBottom = document.getElementsByClassName("service-Bottom")[0];
+var serviceTop = document.getElementsByClassName("service-Top-Wrap")[0];
+var serviceBottom = document.getElementsByClassName("service-Bottom-Wrap")[0];
 // functions
 var serviceShow = function () {
     // check if window scroll y is higher then aboutEl height
-    if (window.scrollY > serviceEl.offsetHeight - 600) {
-        serviceTop.classList.add("about-Active");
+    if (window.scrollY > serviceEl.offsetHeight) {
+        serviceTop.classList.add("service-Active");
+        if (window.scrollY > serviceEl.offsetHeight + 100) {
+            serviceBottom.classList.add("service-Active");
+        }
+        else {
+            serviceBottom.classList.remove("service-Active");
+        }
     }
     else {
-        serviceBottom.classList.remove("about-Active");
+        serviceTop.classList.remove("service-Active");
+        serviceBottom.classList.remove("service-Active");
     }
 };
-// check if window scroll y is higher then  height
 // eventlinsters
+window.addEventListener("scroll", serviceShow);

@@ -766,8 +766,6 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
-      transition: all 700ms ease-in-out;
-      transform: translateY(100%);
       overflow: hidden;
 
       .service-Top-Wrap {
@@ -777,6 +775,8 @@ body {
         align-items: center;
         justify-content: center;
         width: 50%;
+        transition: all 700ms ease-in-out;
+        transform: translateY(300%);
 
         .service-Top-Wrap-Text {
           width: 100%;
@@ -802,6 +802,11 @@ body {
           }
         }
       }
+
+      .service-Active {
+        opacity: 1;
+        transform: translateY(0%);
+      }
     }
 
     .service-Bottom {
@@ -812,8 +817,6 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
-      transition: all 700ms ease-in-out;
-      transform: translateY(100%);
       overflow: hidden;
 
       .service-Bottom-Wrap {
@@ -823,6 +826,8 @@ body {
         text-align: center;
         align-items: center;
         justify-content: space-evenly;
+        transition: all 1500ms ease-in-out;
+        transform: translateY(300%);
 
         #service-Card-Id {
           #service-Card-Wrap-Id {
@@ -855,18 +860,18 @@ body {
           }
         }
       }
-    }
 
-    .service-Active {
-      opacity: 1;
-      transform: translateY(0);
+      .service-Active {
+        opacity: 1;
+        transform: translateY(0%);
+      }
     }
   }
 }
 // service responsvness
 @media screen and (max-width: 1200px) {
   .service {
-    height: 1200px;
+    height: 1300px;
 
     .service-Wrap {
       display: flex;
@@ -926,7 +931,7 @@ body {
       flex-direction: column;
       text-align: center;
       align-items: center;
-      height: 90%;
+      height: 100%;
       width: 90%;
 
       .service-Top {

@@ -734,8 +734,6 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  transition: all 700ms ease-in-out;
-  transform: translateY(100%);
   overflow: hidden;
 }
 
@@ -746,6 +744,8 @@ body {
   align-items: center;
   justify-content: center;
   width: 50%;
+  transition: all 700ms ease-in-out;
+  transform: translateY(300%);
 }
 
 .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text {
@@ -772,6 +772,11 @@ body {
   font-size: 3.5rem;
 }
 
+.service .service-Wrap .service-Top .service-Active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
 .service .service-Wrap .service-Bottom {
   height: 80%;
   width: 100%;
@@ -780,8 +785,6 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  transition: all 700ms ease-in-out;
-  transform: translateY(100%);
   overflow: hidden;
 }
 
@@ -792,6 +795,8 @@ body {
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+  transition: all 1500ms ease-in-out;
+  transform: translateY(300%);
 }
 
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id {
@@ -823,14 +828,14 @@ body {
   margin: 0;
 }
 
-.service .service-Wrap .service-Active {
+.service .service-Wrap .service-Bottom .service-Active {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 @media screen and (max-width: 1200px) {
   .service {
-    height: 1200px;
+    height: 1300px;
   }
 
   .service .service-Wrap {
@@ -879,7 +884,7 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 90%;
+    height: 100%;
     width: 90%;
   }
 

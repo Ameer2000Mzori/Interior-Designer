@@ -98,19 +98,28 @@ window.addEventListener("scroll", aboutShow);
 //
 //
 // selecting element SERVICE
-const serviceEl = document.getElementsByClassName("service")[0];
-const serviceTop = document.getElementsByClassName("service-Top")[0];
-const serviceBottom = document.getElementsByClassName("service-Bottom")[0];
+const serviceEl: any = document.getElementsByClassName("service")[0];
+const serviceTop: any = document.getElementsByClassName("service-Top-Wrap")[0];
+const serviceBottom: any = document.getElementsByClassName(
+  "service-Bottom-Wrap"
+)[0];
 
 // functions
 const serviceShow = () => {
   // check if window scroll y is higher then aboutEl height
-  if (window.scrollY > serviceEl.offsetHeight - 600) {
-    serviceTop.classList.add("about-Active");
+  if (window.scrollY > serviceEl.offsetHeight) {
+    serviceTop.classList.add("service-Active");
+
+    if (window.scrollY > serviceEl.offsetHeight + 100) {
+      serviceBottom.classList.add("service-Active");
+    } else {
+      serviceBottom.classList.remove("service-Active");
+    }
   } else {
-    serviceBottom.classList.remove("about-Active");
+    serviceTop.classList.remove("service-Active");
+    serviceBottom.classList.remove("service-Active");
   }
 };
-// check if window scroll y is higher then  height
 
 // eventlinsters
+window.addEventListener("scroll", serviceShow);
