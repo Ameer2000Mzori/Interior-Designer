@@ -852,6 +852,59 @@ body {
   }
 }
 // service responsvness
+@media screen and (max-width: 1200px) {
+  .service {
+    height: 1200px;
+
+    .service-Wrap {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      height: 90%;
+      width: 90%;
+
+      .service-Top {
+        .service-Top-Wrap {
+          .service-Top-Wrap-Text {
+            .service-Top-Text-2 {
+              font-size: 2.8rem;
+            }
+          }
+        }
+      }
+
+      .service-Bottom {
+        .service-Bottom-Wrap {
+          height: 100%;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          justify-content: space-evenly;
+
+          #service-Card-Id {
+            #service-Card-Wrap-Id {
+              margin-bottom: 5rem;
+
+              #service-Icons {
+                font-size: 2.4rem;
+              }
+
+              .service-Text-Wrap {
+                .service-Text-1,
+                .service-Text-2,
+                .service-Text-3 {
+                  font-size: 1.5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .service {
     height: 1000px;
