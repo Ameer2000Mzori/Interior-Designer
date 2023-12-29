@@ -779,7 +779,7 @@ body {
 }
 
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   text-align: center;

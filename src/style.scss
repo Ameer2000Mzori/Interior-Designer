@@ -810,7 +810,7 @@ body {
       justify-content: center;
 
       .service-Bottom-Wrap {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         text-align: center;
@@ -838,4 +838,8 @@ body {
       }
     }
   }
+}
+// service responsvness
+@media screen and (max-width: 768px) {
+  //768px
 }
