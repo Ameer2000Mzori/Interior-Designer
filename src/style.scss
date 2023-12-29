@@ -471,11 +471,6 @@ body {
     transition: all 2500ms ease-in-out;
     opacity: 1;
 
-    &:hover {
-      transform: translateY(200%);
-      opacity: 0;
-    }
-
     .about-Left {
       width: 30%;
       height: 80%;
@@ -641,6 +636,11 @@ body {
         }
       }
     }
+  }
+
+  .about-Active {
+    transform: translateY(200%);
+    opacity: 0;
   }
 }
 // about responsvness

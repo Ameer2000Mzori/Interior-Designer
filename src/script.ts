@@ -82,3 +82,12 @@ const activateMode = () => {
 
 // eventlinsters
 window.addEventListener("load", changeTitles);
+//
+//
+// selecting element ABOUT
+const aboutEl = document.getElementsByClassName("about")[0];
+const aboutWrap = document.getElementsByClassName("about-Wrap")[0];
+
+// functions
+
+// eventlinsters

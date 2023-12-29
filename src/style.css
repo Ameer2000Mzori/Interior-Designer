@@ -445,11 +445,6 @@ body {
   opacity: 1;
 }
 
-.about .about-Wrap:hover {
-  transform: translateY(200%);
-  opacity: 0;
-}
-
 .about .about-Wrap .about-Left {
   width: 30%;
   height: 80%;
@@ -618,6 +613,11 @@ body {
   margin: 0;
   color: #a31717;
   font-family: "Raleway", sans-serif;
+}
+
+.about .about-Active {
+  transform: translateY(200%);
+  opacity: 0;
 }
 
 @media screen and (max-width: 1440px) {

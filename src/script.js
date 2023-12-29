@@ -75,3 +75,10 @@ var activateMode = function () {
 };
 // eventlinsters
 window.addEventListener("load", changeTitles);
+//
+//
+// selecting element ABOUT
+var aboutEl = document.getElementsByClassName("about")[0];
+var aboutWrap = document.getElementsByClassName("about-Wrap")[0];
+// functions
+// eventlinsters
