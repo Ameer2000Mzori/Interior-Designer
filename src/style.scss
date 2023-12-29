@@ -766,6 +766,8 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
+      transition: all 700ms ease-in-out;
+      transform: translateY(100%);
       overflow: hidden;
 
       .service-Top-Wrap {
@@ -810,6 +812,8 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
+      transition: all 700ms ease-in-out;
+      transform: translateY(100%);
       overflow: hidden;
 
       .service-Bottom-Wrap {
@@ -851,6 +855,11 @@ body {
           }
         }
       }
+    }
+
+    .service-Active {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 }
