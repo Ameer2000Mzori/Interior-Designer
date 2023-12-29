@@ -98,9 +98,19 @@ window.addEventListener("scroll", aboutShow);
 //
 //
 // selecting element SERVICE
+const serviceEl = document.getElementsByClassName("service")[0];
+const serviceTop = document.getElementsByClassName("service-Top")[0];
+const serviceBottom = document.getElementsByClassName("service-Bottom")[0];
 
 // functions
-
+const serviceShow = () => {
+  // check if window scroll y is higher then aboutEl height
+  if (window.scrollY > serviceEl.offsetHeight - 600) {
+    serviceTop.classList.add("about-Active");
+  } else {
+    serviceBottom.classList.remove("about-Active");
+  }
+};
 // check if window scroll y is higher then  height
 
 // eventlinsters

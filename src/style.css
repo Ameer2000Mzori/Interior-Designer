@@ -712,7 +712,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
   justify-content: center;
 }
 
@@ -723,6 +723,7 @@ body {
   align-items: center;
   height: 90%;
   width: 90%;
+  overflow: hidden;
 }
 
 .service .service-Wrap .service-Top {
@@ -733,6 +734,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .service .service-Wrap .service-Top .service-Top-Wrap {
@@ -776,6 +778,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap {
