@@ -740,3 +740,22 @@ body {
     }
   }
 }
+// service
+.service {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+
+  .service-Wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+  }
+}
