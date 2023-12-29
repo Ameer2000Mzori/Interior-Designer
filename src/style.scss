@@ -746,7 +746,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
   justify-content: center;
 
   .service-Wrap {
@@ -816,6 +816,15 @@ body {
         text-align: center;
         align-items: center;
         justify-content: space-evenly;
+
+        #service-Card-Id {
+          #service-Card-Wrap-Id {
+            #service-Icons {
+              color: #a31717;
+              font-size: 2.5rem;
+            }
+          }
+        }
       }
     }
   }
