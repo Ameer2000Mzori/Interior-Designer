@@ -468,8 +468,9 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    transition: all 2500ms ease-in-out;
-    opacity: 1;
+    transition: all 1500ms ease-in-out;
+    opacity: 0;
+    transform: translateY(100%);
 
     .about-Left {
       width: 30%;
@@ -639,8 +640,8 @@ body {
   }
 
   .about-Active {
-    transform: translateY(200%);
-    opacity: 0;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 // about responsvness

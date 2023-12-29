@@ -41,12 +41,9 @@ const changeTitles = () => {
 // first title function
 const firstTitle = () => {
   if (timeCount < 3) {
-    console.log(timeCount);
   } else if (timeCount < 4) {
     activateMode();
-    console.log(timeCount);
   } else if (timeCount < 5) {
-    console.log(timeCount);
     headertext1.textContent = "HELLO I AM";
     headertext2.textContent = "ANN SMITH";
     headertext1.classList.remove("active");
@@ -59,12 +56,9 @@ const firstTitle = () => {
 // second title function
 const secondTitle = () => {
   if (timeCount < 3) {
-    console.log(timeCount);
   } else if (timeCount < 4) {
     activateMode();
-    console.log(timeCount);
   } else if (timeCount < 5) {
-    console.log(timeCount);
     headertext1.textContent = "I'M FROM LONDON";
     headertext2.textContent = "AN INTERIOR DESIGHNER";
     headertext1.classList.remove("active");
@@ -85,9 +79,19 @@ window.addEventListener("load", changeTitles);
 //
 //
 // selecting element ABOUT
-const aboutEl = document.getElementsByClassName("about")[0];
-const aboutWrap = document.getElementsByClassName("about-Wrap")[0];
+const aboutEl: any = document.getElementsByClassName("about")[0];
+const aboutWrap: any = document.getElementsByClassName("about-Wrap")[0];
 
 // functions
 
+const aboutShow = () => {
+  // check if window scroll y is higher then aboutEl height
+  if (window.scrollY > aboutEl.offsetHeight - 300) {
+    aboutWrap.classList.add("about-Active");
+  } else {
+    aboutWrap.classList.remove("about-Active");
+  }
+};
+
 // eventlinsters
+window.addEventListener("scroll", aboutShow);

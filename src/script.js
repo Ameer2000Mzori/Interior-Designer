@@ -33,14 +33,11 @@ var changeTitles = function () {
 // first title function
 var firstTitle = function () {
     if (timeCount < 3) {
-        console.log(timeCount);
     }
     else if (timeCount < 4) {
         activateMode();
-        console.log(timeCount);
     }
     else if (timeCount < 5) {
-        console.log(timeCount);
         headertext1.textContent = "HELLO I AM";
         headertext2.textContent = "ANN SMITH";
         headertext1.classList.remove("active");
@@ -52,14 +49,11 @@ var firstTitle = function () {
 // second title function
 var secondTitle = function () {
     if (timeCount < 3) {
-        console.log(timeCount);
     }
     else if (timeCount < 4) {
         activateMode();
-        console.log(timeCount);
     }
     else if (timeCount < 5) {
-        console.log(timeCount);
         headertext1.textContent = "I'M FROM LONDON";
         headertext2.textContent = "AN INTERIOR DESIGHNER";
         headertext1.classList.remove("active");
@@ -81,4 +75,14 @@ window.addEventListener("load", changeTitles);
 var aboutEl = document.getElementsByClassName("about")[0];
 var aboutWrap = document.getElementsByClassName("about-Wrap")[0];
 // functions
+var aboutShow = function () {
+    // check if window scroll y is higher then aboutEl height
+    if (window.scrollY > aboutEl.offsetHeight - 300) {
+        aboutWrap.classList.add("about-Active");
+    }
+    else {
+        aboutWrap.classList.remove("about-Active");
+    }
+};
 // eventlinsters
+window.addEventListener("scroll", aboutShow);
