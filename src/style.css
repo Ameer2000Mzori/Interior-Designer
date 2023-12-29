@@ -757,3 +757,13 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text .service-Top-Text-2 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+}
