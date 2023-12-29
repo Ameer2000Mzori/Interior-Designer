@@ -794,7 +794,7 @@ body {
             font-family: $fontTwo;
             font-weight: 600;
             letter-spacing: 5px;
-            font-size: 2.5rem;
+            font-size: 3.5rem;
           }
         }
       }
@@ -810,7 +810,7 @@ body {
       justify-content: center;
 
       .service-Bottom-Wrap {
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         text-align: center;
@@ -819,18 +819,30 @@ body {
 
         #service-Card-Id {
           #service-Card-Wrap-Id {
+            width: 350px;
+
             #service-Icons {
               color: #a31717;
-              font-size: 2.5rem;
+              font-size: 3rem;
+              margin-bottom: 35px;
             }
 
             .service-Text-Wrap {
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              gap: 25px;
+
               .service-Text-1,
               .service-Text-2,
               .service-Text-3 {
                 font-family: $fontThree;
-                font-size: 1rem;
+                font-size: 1.5rem;
                 color: white;
+                padding: 0;
+                margin: 0;
               }
             }
           }

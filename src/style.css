@@ -765,7 +765,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   letter-spacing: 5px;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .service .service-Wrap .service-Bottom {
@@ -779,7 +779,7 @@ body {
 }
 
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -787,17 +787,33 @@ body {
   justify-content: space-evenly;
 }
 
+.service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id {
+  width: 350px;
+}
+
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id #service-Icons {
   color: #a31717;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-bottom: 35px;
+}
+
+.service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-1,
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-2,
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-3 {
   font-family: "Kanit", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
