@@ -97,7 +97,7 @@ var serviceShow = function () {
     // check if window scroll y is higher then aboutEl height
     if (window.scrollY > serviceEl.offsetHeight) {
         serviceTop.classList.add("service-Active");
-        if (window.scrollY > serviceEl.offsetHeight + 100) {
+        if (window.scrollY > serviceEl.offsetHeight + 200) {
             serviceBottom.classList.add("service-Active");
         }
         else {

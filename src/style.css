@@ -746,6 +746,8 @@ body {
   width: 50%;
   transition: all 700ms ease-in-out;
   transform: translateY(300%);
+  position: relative;
+  z-index: -15;
 }
 
 .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text {
@@ -786,6 +788,8 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  z-index: -15;
 }
 
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap {

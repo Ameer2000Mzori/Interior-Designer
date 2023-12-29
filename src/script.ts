@@ -110,7 +110,7 @@ const serviceShow = () => {
   if (window.scrollY > serviceEl.offsetHeight) {
     serviceTop.classList.add("service-Active");
 
-    if (window.scrollY > serviceEl.offsetHeight + 100) {
+    if (window.scrollY > serviceEl.offsetHeight + 200) {
       serviceBottom.classList.add("service-Active");
     } else {
       serviceBottom.classList.remove("service-Active");
