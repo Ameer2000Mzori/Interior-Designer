@@ -1072,9 +1072,11 @@ body {
 }
 
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Link-Text {
