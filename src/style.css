@@ -1106,3 +1106,47 @@ body {
   transform: translateY(0%);
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-1 {
+    font-size: 1rem;
+  }
+
+  .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-2 {
+    font-size: 2rem;
+  }
+
+  .projects .projects-Wrap .Project-Top .project-active {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+  .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right {
+    width: 60%;
+    height: 100%;
+  }
+
+  .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap {
+    width: 100%;
+  }
+
+  .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-1,
+  .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-3 {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-2 {
+    font-size: 1rem;
+  }
+
+  .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .reversed {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .projects .projects-Wrap .project-Bottom .project-active {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

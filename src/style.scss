@@ -1170,5 +1170,59 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  // 768px
+  .projects {
+    .projects-Wrap {
+      .Project-Top {
+        .project-Top-Wrap-Text {
+          .Project-Top-Wrap-Text-1 {
+            font-size: 1rem;
+          }
+
+          .Project-Top-Wrap-Text-2 {
+            font-size: 2rem;
+          }
+        }
+
+        .project-active {
+          transform: translateY(0%);
+          opacity: 1;
+        }
+      }
+
+      .project-Bottom {
+        .project-Bottom-Wrap {
+          .project-Bottom-Card {
+            .project-Bottom-Card-Right {
+              width: 60%;
+              height: 100%;
+
+              .project-Right-Text-Wrap {
+                width: 100%;
+
+                .project-Right-Text-1,
+                .project-Right-Text-3 {
+                  font-size: 0.8rem;
+                  width: 100%;
+                }
+
+                .project-Right-Text-2 {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+
+          .reversed {
+            display: flex;
+            flex-direction: row-reverse;
+          }
+        }
+
+        .project-active {
+          transform: translateY(0%);
+          opacity: 1;
+        }
+      }
+    }
+  }
 }
