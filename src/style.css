@@ -1035,3 +1035,9 @@ body {
   align-items: start;
   justify-content: space-evenly;
 }
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-1 {
+  font-size: 1rem;
+  color: #757575;
+  font-family: "Raleway", sans-serif;
+}

@@ -1090,6 +1090,12 @@ body {
               text-align: start;
               align-items: start;
               justify-content: space-evenly;
+
+              .project-Right-Text-1 {
+                font-size: 1rem;
+                color: #757575;
+                font-family: $fontTwo;
+              }
             }
           }
         }
