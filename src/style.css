@@ -1026,3 +1026,12 @@ body {
   width: 50%;
   height: 100%;
 }
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+  justify-content: space-evenly;
+}
