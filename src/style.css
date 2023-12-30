@@ -951,8 +951,8 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  transition: all 1500ms ease-in-out;
-  transform: translateY(200%);
+  transition: all 1000ms ease-in-out;
+  transform: translateY(300%);
 }
 
 .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-1 {

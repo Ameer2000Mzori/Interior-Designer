@@ -129,12 +129,20 @@ window.addEventListener("scroll", serviceShow);
 const projectBottomWrapEl = document.getElementsByClassName(
   "project-Bottom-Wrap"
 )[0];
+const projectTopWrapTextEl = document.getElementsByClassName(
+  "project-Top-Wrap-Text"
+)[0];
 // functions
 const projectShow = () => {
-  if (window.scrollY > 2500) {
-    projectBottomWrapEl.classList.add("project-active");
+  console.log(window.scrollY);
+  if (window.scrollY > 2000) {
+    projectTopWrapTextEl.classList.add("project-active");
+    if (window.scrollY > 1900 + 300) {
+      projectBottomWrapEl.classList.add("project-active");
+    }
   } else {
     projectBottomWrapEl.classList.remove("project-active");
+    projectTopWrapTextEl.classList.remove("project-active");
   }
 };
 
