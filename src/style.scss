@@ -1020,7 +1020,7 @@ body {
         }
 
         .Project-Top-Wrap-Text-2 {
-          font-size: 2.5rem;
+          font-size: 3rem;
           color: white;
           font-weight: 500;
           font-family: $fontThree;
@@ -1038,6 +1038,7 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
+      margin-top: 8rem;
 
       .project-Bottom-Wrap {
         display: flex;
@@ -1096,13 +1097,19 @@ body {
                 font-size: 1rem;
                 color: #757575;
                 font-family: $fontTwo;
-                width: 60%;
+                width: 80%;
               }
 
               .project-Right-Text-2 {
                 font-size: 2.5rem;
                 color: white;
                 font-family: $fontTwo;
+              }
+
+              .project-Link-Text {
+                color: #a31717;
+                font-family: $fontTwo;
+                text-decoration: none;
               }
             }
           }

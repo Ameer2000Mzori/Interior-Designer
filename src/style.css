@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   padding: 0;
   background-color: #121212;
@@ -15,6 +16,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .navbar .navbar-Left {
   width: 45%;
   height: 100%;
@@ -24,6 +26,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .navbar .navbar-Left .navbar-Left-Wrap {
   height: 100%;
   width: 250px;
@@ -36,6 +39,7 @@ body {
   gap: 15px;
   margin: 0;
 }
+
 .navbar .navbar-Left .navbar-Left-Wrap .nav-Img {
   border-radius: 50%;
   width: 65px;
@@ -45,6 +49,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .navbar .navbar-Left .navbar-Left-Wrap .nav-Text-Wrap .nav-Name-Text-1 {
   font-family: "Raleway", sans-serif;
   color: #ccc;
@@ -54,6 +59,7 @@ body {
   margin: 0;
   height: 20px;
 }
+
 .navbar .navbar-Left .navbar-Left-Wrap .nav-Text-Wrap .nav-Name-Text-2 {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -63,6 +69,7 @@ body {
   height: 20px;
   font-size: 1rem;
 }
+
 .navbar .navbar-Right {
   height: 100%;
   width: 35%;
@@ -72,17 +79,20 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap {
   width: 50px;
   height: 50px;
   display: block;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap {
   width: 100%;
   height: 100%;
   display: block;
   position: relative;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap #bars {
   height: 4px;
   width: 100%;
@@ -90,34 +100,41 @@ body {
   background-color: rgb(224, 224, 224);
   transition: all 150ms ease-in-out;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-One {
   position: absolute;
   top: 15px;
   left: 0;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-Two {
   position: absolute;
   top: 25px;
   left: 0;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap .bar-Three {
   position: absolute;
   top: 35px;
   left: 0;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover {
   cursor: pointer;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover .bar-One {
   position: absolute;
   top: 11px;
   left: 0;
 }
+
 .navbar .navbar-Right .navbar-Right-Wrap .navbar-Bars-Wrap:hover .bar-Three {
   position: absolute;
   top: 39px;
   left: 0;
 }
+
 .navbar .navlinks {
   display: flex;
   flex-direction: column;
@@ -132,11 +149,13 @@ body {
   transition: all 500ms ease-in-out;
   z-index: 100;
 }
+
 .navbar .navlinks .nav-Bars-Wrap {
   position: absolute;
   height: 20%;
   width: 80%;
 }
+
 .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn {
   width: 50px;
   height: 50px;
@@ -150,24 +169,28 @@ body {
   cursor: pointer;
   z-index: 15;
 }
+
 .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn #nav-Bars {
   width: 100%;
   height: 3px;
   background-color: white;
   border-radius: 15px;
 }
+
 .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-One {
   position: absolute;
   top: 25px;
   left: 0;
   transform: rotate(45deg);
 }
+
 .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-Two {
   transform: rotate(-45deg);
   position: absolute;
   top: 25px;
   right: 0;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper {
   width: 100%;
   height: 100%;
@@ -176,10 +199,12 @@ body {
   text-align: center;
   align-items: center;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Left {
   width: 40%;
   height: 100%;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Left .navlinks-Img {
   background-image: url("./assets/nav.jpg");
   background-size: cover;
@@ -189,6 +214,7 @@ body {
   height: 100%;
   position: relative;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Left .navlinks-Img::before {
   content: "";
   position: absolute;
@@ -198,6 +224,7 @@ body {
   top: 0;
   left: 0;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right {
   width: 60%;
   height: 100%;
@@ -207,6 +234,7 @@ body {
   align-items: center;
   position: relative;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper {
   position: absolute;
   left: 50px;
@@ -218,25 +246,30 @@ body {
   text-align: center;
   align-items: center;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Title-Text {
   font-size: 2.6rem;
   font-weight: 500;
   font-family: "Raleway", sans-serif;
   color: white;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap {
   width: 40%;
   height: 100%;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li {
   display: flex;
   padding: 0.3rem;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li a {
   font-size: 2.5rem;
   text-decoration: none;
@@ -244,9 +277,11 @@ body {
   color: #ccc;
   transition: all 250ms ease-in-out;
 }
+
 .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li a:hover {
   color: orangered;
 }
+
 .navbar .navlinks.active {
   transform: translateY(200%);
   z-index: 100;
@@ -256,50 +291,61 @@ body {
   .navbar .navbar-Left {
     width: 55%;
   }
+
   .navbar .navbar-Left .navbar-Left-Wrap .nav-Text-Wrap .nav-Name-Text-2 {
     font-size: 0.8rem;
   }
+
   .navbar .navbar-Right {
     height: 100%;
     width: 20%;
   }
+
   .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn {
     top: 25px;
     right: 2.5rem;
   }
+
   .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn #nav-Bars {
     width: 100%;
     height: 3px;
     background-color: white;
     border-radius: 15px;
   }
+
   .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-One {
     position: absolute;
     top: 25px;
     left: 0;
     transform: rotate(45deg);
   }
+
   .navbar .navlinks .nav-Bars-Wrap .nav-Close-Btn .nav-Bar-Two {
     transform: rotate(-45deg);
     position: absolute;
     top: 25px;
     right: 0;
   }
+
   .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper {
     width: 90%;
   }
+
   .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Title-Text {
     font-size: 1.5rem;
   }
+
   .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap {
     width: 100%;
     height: 100%;
   }
+
   .navbar .navlinks .nav-Left-Right-wrapper .navlinks-Right .navlinks-Right-Wrapper .navlinks-Right-Wrap ul li a {
     font-size: 1.5rem;
     text-decoration: none;
   }
 }
+
 .background-Deco-Wrap {
   height: 100vh;
   width: 100vw;
@@ -307,6 +353,7 @@ body {
   top: 0;
   z-index: -1;
 }
+
 .background-Deco-Wrap #triangels {
   height: 600px;
   width: 500px;
@@ -314,10 +361,12 @@ body {
   position: absolute;
   transform: rotate(15deg);
 }
+
 .background-Deco-Wrap .triangel-One {
   bottom: -5rem;
   right: -15rem;
 }
+
 .background-Deco-Wrap .triangel-Two {
   top: -5rem;
   left: -15rem;
@@ -331,12 +380,14 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
 .header .header-wrapper {
   width: 580px;
   height: 160px;
   z-index: -1;
   position: relative;
 }
+
 .header .header-wrapper .header-text-1 {
   font-family: "Raleway", sans-serif;
   color: #858383;
@@ -346,6 +397,7 @@ body {
   letter-spacing: 5px;
   transition: 550ms ease-in-out;
 }
+
 .header .header-wrapper .header-text-2 {
   font-family: "Raleway", sans-serif;
   color: #ccc;
@@ -356,6 +408,7 @@ body {
   letter-spacing: 5px;
   transition: 550ms ease-in-out;
 }
+
 .header .header-wrapper .active {
   opacity: 0;
 }
@@ -364,10 +417,12 @@ body {
   .header .header-wrapper {
     width: 350px;
   }
+
   .header .header-wrapper .header-text-2 {
     font-size: 1.5rem;
   }
 }
+
 .about {
   height: 100vh;
   display: flex;
@@ -379,6 +434,7 @@ body {
   position: relative;
   z-index: -20;
 }
+
 .about .about-Wrap {
   width: 90%;
   height: 90%;
@@ -391,6 +447,7 @@ body {
   opacity: 0;
   transform: translateY(100%);
 }
+
 .about .about-Wrap .about-Left {
   width: 30%;
   height: 80%;
@@ -400,10 +457,12 @@ body {
   align-items: end;
   justify-content: center;
 }
+
 .about .about-Wrap .about-Left .about-Left-Wrap {
   height: 85%;
   width: 60%;
 }
+
 .about .about-Wrap .about-Left .about-Left-Wrap .about-Left-Wrap-Img {
   background-image: url("./assets/about.jpg");
   background-position: center;
@@ -414,6 +473,7 @@ body {
   position: relative;
   z-index: -11;
 }
+
 .about .about-Wrap .about-Left .about-Left-Wrap .about-Left-Wrap-Img::before {
   content: "";
   position: absolute;
@@ -424,6 +484,7 @@ body {
   width: 100%;
   background-color: rgba(29, 29, 29, 0.479);
 }
+
 .about .about-Wrap .about-Right {
   width: 60%;
   height: 80%;
@@ -433,6 +494,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap {
   width: 60%;
   height: 80%;
@@ -442,6 +504,7 @@ body {
   align-items: start;
   justify-content: center;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap {
   position: relative;
   text-align: center;
@@ -450,6 +513,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-1 {
   position: absolute;
   font-size: 10rem;
@@ -462,6 +526,7 @@ body {
   letter-spacing: 5px;
   left: -5rem;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-2 {
   position: absolute;
   font-size: 2rem;
@@ -472,6 +537,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-3 {
   font-size: 1rem;
   color: rgb(148, 147, 147);
@@ -486,11 +552,13 @@ body {
   z-index: -15;
   width: 80%;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .buttons-Wrap {
   height: 50px;
   display: flex;
   gap: 10px;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .buttons-Wrap #buttons-Links {
   height: 50px;
   width: 50px;
@@ -505,6 +573,7 @@ body {
   border-radius: 50%;
   font-size: 1.5rem;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap {
   display: flex;
   flex-direction: column;
@@ -513,11 +582,13 @@ body {
   justify-content: center;
   margin-top: 1.5rem;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .contact-Title-Text {
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap,
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap {
   padding: 0;
@@ -526,6 +597,7 @@ body {
   gap: 5px;
   margin-bottom: 15px;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Title,
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .phone-Title,
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap .email-Title,
@@ -535,6 +607,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .email-Text,
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .email-Wrap .phone-Text,
 .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .phone-Wrap .email-Text,
@@ -544,6 +617,7 @@ body {
   color: #a31717;
   font-family: "Raleway", sans-serif;
 }
+
 .about .about-Active {
   transform: translateY(0);
   opacity: 1;
@@ -554,18 +628,22 @@ body {
     width: 30%;
     height: 80%;
   }
+
   .about .about-Wrap .about-Left .about-Left-Wrap {
     height: 75%;
     width: 100%;
   }
+
   .about .about-Wrap .about-Right {
     width: 60%;
     height: 80%;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap {
     width: 80%;
     height: 80%;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-1 {
     font-size: 7.5rem;
     color: #2e2e2e;
@@ -574,15 +652,18 @@ body {
     z-index: -15;
     left: -1rem;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-2 {
     font-size: 1.5rem;
     top: -5rem;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-3 {
     font-size: 0.7rem;
     width: 100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .about .about-Wrap {
     flex-direction: column;
@@ -590,33 +671,42 @@ body {
     align-items: center;
     justify-content: center;
   }
+
   .about .about-Wrap .about-Left {
     display: none;
   }
+
   .about .about-Wrap .about-Right {
     width: 90%;
     height: 90%;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap {
     width: 100%;
     height: 100%;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-1 {
     font-size: 4.5rem;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-2 {
     font-size: 1.4rem;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .about-Text-Wrap .about-Text-3 {
     font-size: 0.6rem;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap {
     margin-top: 1rem;
   }
+
   .about .about-Wrap .about-Right .about-Right-Wrap .contact-Me-Wrap .contact-Title-Text {
     font-size: 0.7rem;
   }
 }
+
 .service {
   display: flex;
   flex-direction: column;
@@ -625,6 +715,7 @@ body {
   height: 100vh;
   justify-content: center;
 }
+
 .service .service-Wrap {
   display: flex;
   flex-direction: column;
@@ -634,6 +725,7 @@ body {
   width: 90%;
   overflow: hidden;
 }
+
 .service .service-Wrap .service-Top {
   width: 100%;
   height: 20%;
@@ -644,6 +736,7 @@ body {
   justify-content: center;
   overflow: hidden;
 }
+
 .service .service-Wrap .service-Top .service-Top-Wrap {
   display: flex;
   flex-direction: column;
@@ -656,10 +749,12 @@ body {
   position: relative;
   z-index: -15;
 }
+
 .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text {
   width: 100%;
   height: 100%;
 }
+
 .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text .service-Top-Text-1 {
   color: rgb(87, 86, 86);
   font-family: "Kanit", sans-serif;
@@ -668,6 +763,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text .service-Top-Text-2 {
   padding: 0;
   margin: 0;
@@ -677,10 +773,12 @@ body {
   letter-spacing: 5px;
   font-size: 3.5rem;
 }
+
 .service .service-Wrap .service-Top .service-Active {
   opacity: 1;
   transform: translateY(0%);
 }
+
 .service .service-Wrap .service-Bottom {
   height: 80%;
   width: 100%;
@@ -693,6 +791,7 @@ body {
   position: relative;
   z-index: -15;
 }
+
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap {
   width: 80%;
   display: flex;
@@ -703,14 +802,17 @@ body {
   transition: all 1500ms ease-in-out;
   transform: translateY(300%);
 }
+
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id {
   width: 350px;
 }
+
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id #service-Icons {
   color: #a31717;
   font-size: 3rem;
   margin-bottom: 35px;
 }
+
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap {
   display: flex;
   flex-direction: column;
@@ -719,6 +821,7 @@ body {
   justify-content: center;
   gap: 25px;
 }
+
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-1,
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-2,
 .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-3 {
@@ -728,6 +831,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .service .service-Wrap .service-Bottom .service-Active {
   opacity: 1;
   transform: translateY(0%);
@@ -737,6 +841,7 @@ body {
   .service {
     height: 1300px;
   }
+
   .service .service-Wrap {
     display: flex;
     flex-direction: column;
@@ -745,9 +850,11 @@ body {
     height: 90%;
     width: 90%;
   }
+
   .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text .service-Top-Text-2 {
     font-size: 2.8rem;
   }
+
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap {
     height: 100%;
     flex-direction: column;
@@ -755,22 +862,27 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
+
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id {
     margin-bottom: 5rem;
   }
+
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id #service-Icons {
     font-size: 2.4rem;
   }
+
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-1,
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-2,
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-3 {
     font-size: 1.5rem;
   }
 }
+
 @media screen and (max-width: 768px) {
   .service {
     height: 1000px;
   }
+
   .service .service-Wrap {
     display: flex;
     flex-direction: column;
@@ -779,9 +891,11 @@ body {
     height: 100%;
     width: 90%;
   }
+
   .service .service-Wrap .service-Top .service-Top-Wrap .service-Top-Wrap-Text .service-Top-Text-2 {
     font-size: 2rem;
   }
+
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap {
     height: 100%;
     flex-direction: column;
@@ -789,15 +903,18 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
+
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id #service-Icons {
     font-size: 1.8rem;
   }
+
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-1,
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-2,
   .service .service-Wrap .service-Bottom .service-Bottom-Wrap #service-Card-Id #service-Card-Wrap-Id .service-Text-Wrap .service-Text-3 {
     font-size: 0.8rem;
   }
 }
+
 .projects {
   height: 100vh;
   display: flex;
@@ -806,6 +923,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .projects .projects-Wrap {
   width: 90%;
   height: 90%;
@@ -815,6 +933,7 @@ body {
   align-items: center;
   justify-content: flex-start;
 }
+
 .projects .projects-Wrap .Project-Top {
   height: 20%;
   width: 100%;
@@ -824,6 +943,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text {
   display: flex;
   flex-direction: column;
@@ -831,6 +951,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-1 {
   font-size: 1.5rem;
   color: rgb(112, 112, 112);
@@ -839,14 +960,16 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
   font-weight: 500;
   font-family: "Kanit", sans-serif;
   padding: 0;
   margin: 0;
 }
+
 .projects .projects-Wrap .project-Bottom {
   height: 80%;
   width: 100%;
@@ -855,7 +978,9 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-top: 8rem;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap {
   display: flex;
   flex-direction: column;
@@ -865,6 +990,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card {
   display: flex;
   flex-direction: row;
@@ -873,10 +999,12 @@ body {
   height: 340px;
   width: 100%;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left {
   width: 50%;
   height: 100%;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left .project-Left-Img-Wrap {
   display: flex;
   flex-direction: column;
@@ -885,6 +1013,7 @@ body {
   height: 100%;
   width: 100%;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left .project-Left-Img-Wrap .project-Card-Img {
   background-image: url("./assets/work1.jpg");
   height: 100%;
@@ -893,10 +1022,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right {
   width: 50%;
   height: 100%;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap {
   width: 90%;
   display: flex;
@@ -905,17 +1036,23 @@ body {
   align-items: start;
   justify-content: space-evenly;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-1,
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-3 {
   font-size: 1rem;
   color: #757575;
   font-family: "Raleway", sans-serif;
-  width: 60%;
+  width: 80%;
 }
+
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Right-Text-2 {
   font-size: 2.5rem;
   color: white;
   font-family: "Raleway", sans-serif;
 }
 
-/*# sourceMappingURL=style.css.map */
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right .project-Right-Text-Wrap .project-Link-Text {
+  color: #a31717;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
