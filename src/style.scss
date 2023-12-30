@@ -978,7 +978,7 @@ body {
 }
 // projects
 .projects {
-  height: 100vh;
+  height: 2200px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1048,16 +1048,21 @@ body {
         justify-content: flex-start;
         width: 100%;
         height: 100%;
+        gap: 10rem;
 
         .project-Bottom-Card {
           display: flex;
           flex-direction: row;
           text-align: center;
           align-items: center;
+          justify-content: center;
           height: 340px;
           width: 100%;
 
           .project-Bottom-Card-Left {
+            width: 40%;
+            height: 100%;
+
             .project-Left-Img-Wrap {
               display: flex;
               flex-direction: column;
@@ -1067,21 +1072,42 @@ body {
               width: 100%;
 
               .project-Card-Img {
-                background-image: url("./assets/work1.jpg");
                 height: 100%;
-                width: 80%;
+                width: 90%;
+              }
+
+              #project-Card-Img-1 {
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+                background-image: url("./assets/work1.jpg");
+              }
+
+              #project-Card-Img-2 {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("./assets/work2.jpg");
+              }
+
+              #project-Card-Img-3 {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("./assets/work3.jpg");
+              }
+
+              #project-Card-Img-4 {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("./assets/work4.jpg");
               }
             }
-
-            width: 50%;
-            height: 100%;
           }
 
           .project-Bottom-Card-Right {
-            width: 50%;
+            width: 40%;
             height: 100%;
 
             .project-Right-Text-Wrap {
@@ -1113,6 +1139,11 @@ body {
               }
             }
           }
+        }
+
+        .reversed {
+          display: flex;
+          flex-direction: row-reverse;
         }
       }
     }

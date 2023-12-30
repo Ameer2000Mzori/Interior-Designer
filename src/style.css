@@ -916,7 +916,7 @@ body {
 }
 
 .projects {
-  height: 100vh;
+  height: 2200px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -989,6 +989,7 @@ body {
   justify-content: flex-start;
   width: 100%;
   height: 100%;
+  gap: 10rem;
 }
 
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card {
@@ -996,12 +997,13 @@ body {
   flex-direction: row;
   text-align: center;
   align-items: center;
+  justify-content: center;
   height: 340px;
   width: 100%;
 }
 
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left {
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 
@@ -1015,16 +1017,40 @@ body {
 }
 
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left .project-Left-Img-Wrap .project-Card-Img {
-  background-image: url("./assets/work1.jpg");
   height: 100%;
-  width: 80%;
+  width: 90%;
+}
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left .project-Left-Img-Wrap #project-Card-Img-1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("./assets/work1.jpg");
+}
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left .project-Left-Img-Wrap #project-Card-Img-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/work2.jpg");
+}
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left .project-Left-Img-Wrap #project-Card-Img-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/work3.jpg");
+}
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Left .project-Left-Img-Wrap #project-Card-Img-4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/work4.jpg");
 }
 
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card .project-Bottom-Card-Right {
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 
@@ -1055,4 +1081,9 @@ body {
   color: #a31717;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+}
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .reversed {
+  display: flex;
+  flex-direction: row-reverse;
 }
