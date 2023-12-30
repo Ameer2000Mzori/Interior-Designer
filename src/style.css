@@ -969,3 +969,13 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.projects .projects-Wrap .project-Bottom {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

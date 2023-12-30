@@ -1029,5 +1029,19 @@ body {
         }
       }
     }
+
+    .project-Bottom {
+      height: 80%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .project-Bottom-Wrap {
+        //
+      }
+    }
   }
 }
