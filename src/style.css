@@ -942,6 +942,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text {
@@ -950,6 +951,8 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  transition: all 1500ms ease-in-out;
+  transform: translateY(200%);
 }
 
 .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-1 {
@@ -968,6 +971,11 @@ body {
   font-family: "Kanit", sans-serif;
   padding: 0;
   margin: 0;
+}
+
+.projects .projects-Wrap .Project-Top .project-active {
+  transform: translateY(0%);
+  opacity: 1;
 }
 
 .projects .projects-Wrap .project-Bottom {
@@ -991,8 +999,9 @@ body {
   width: 100%;
   height: 100%;
   gap: 10rem;
-  transition: all 1500ms ease-in-out;
+  transition: all 2500ms ease-in-out;
   transform: translateY(200%);
+  opacity: 0;
 }
 
 .projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card {
@@ -1093,6 +1102,7 @@ body {
   flex-direction: row-reverse;
 }
 
-.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap.active {
+.projects .projects-Wrap .project-Bottom .project-active {
   transform: translateY(0%);
+  opacity: 1;
 }

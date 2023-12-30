@@ -126,7 +126,17 @@ window.addEventListener("scroll", serviceShow);
 //
 //
 // selecting element PROJECTS
-
+const projectBottomWrapEl = document.getElementsByClassName(
+  "project-Bottom-Wrap"
+)[0];
 // functions
+const projectShow = () => {
+  if (window.scrollY > 2500) {
+    projectBottomWrapEl.classList.add("project-active");
+  } else {
+    projectBottomWrapEl.classList.remove("project-active");
+  }
+};
 
 // eventlinsters
+window.addEventListener("scroll", projectShow);
