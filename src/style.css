@@ -1161,3 +1161,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.achivements .achivements-Wrap {
+  height: 90%;
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
