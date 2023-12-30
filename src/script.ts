@@ -123,3 +123,10 @@ const serviceShow = () => {
 
 // eventlinsters
 window.addEventListener("scroll", serviceShow);
+//
+//
+// selecting element PROJECTS
+
+// functions
+
+// eventlinsters

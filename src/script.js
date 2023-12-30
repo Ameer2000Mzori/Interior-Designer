@@ -111,3 +111,8 @@ var serviceShow = function () {
 };
 // eventlinsters
 window.addEventListener("scroll", serviceShow);
+//
+//
+// selecting element PROJECTS
+// functions
+// eventlinsters
