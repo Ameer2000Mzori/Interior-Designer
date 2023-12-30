@@ -1091,9 +1091,17 @@ body {
               align-items: start;
               justify-content: space-evenly;
 
-              .project-Right-Text-1 {
+              .project-Right-Text-1,
+              .project-Right-Text-3 {
                 font-size: 1rem;
                 color: #757575;
+                font-family: $fontTwo;
+                width: 60%;
+              }
+
+              .project-Right-Text-2 {
+                font-size: 2.5rem;
+                color: white;
                 font-family: $fontTwo;
               }
             }
