@@ -979,3 +979,20 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.projects .projects-Wrap .project-Bottom .project-Bottom-Wrap .project-Bottom-Card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
