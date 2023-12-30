@@ -119,9 +119,9 @@ var projectTopWrapTextEl = document.getElementsByClassName("project-Top-Wrap-Tex
 // functions
 var projectShow = function () {
     console.log(window.scrollY);
-    if (window.scrollY > 2000) {
+    if (window.scrollY > 2100) {
         projectTopWrapTextEl.classList.add("project-active");
-        if (window.scrollY > 1900 + 300) {
+        if (window.scrollY > 2000 + 300) {
             projectBottomWrapEl.classList.add("project-active");
         }
     }
