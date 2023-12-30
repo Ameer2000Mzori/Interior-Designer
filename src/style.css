@@ -944,9 +944,28 @@ body {
   justify-content: center;
 }
 
+.projects .projects-Wrap .Project-Top .project-Top-Wrap-Text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-1 {
   font-size: 1.5rem;
   color: rgb(112, 112, 112);
   font-weight: 500;
   font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.projects .projects-Wrap .Project-Top .project-Top-Wrap-Text .Project-Top-Wrap-Text-2 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+  padding: 0;
+  margin: 0;
 }
