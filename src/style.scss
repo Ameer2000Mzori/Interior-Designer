@@ -984,6 +984,8 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: -15;
 
   .projects-Wrap {
     width: 90%;
