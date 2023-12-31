@@ -1196,3 +1196,19 @@ body {
   font-size: 2.5rem;
   letter-spacing: 5px;
 }
+
+.achivements .achivements-Wrap .achive-Bottom,
+.achivements .achivements-Wrap .achive-Bottom-Wrap {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap {
+  height: 100%;
+}

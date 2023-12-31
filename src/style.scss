@@ -1272,5 +1272,20 @@ body {
         }
       }
     }
+
+    .achive-Bottom,
+    .achive-Bottom-Wrap {
+      height: 90%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .achive-Bottom-Wrap {
+        height: 100%;
+      }
+    }
   }
 }
