@@ -1161,6 +1161,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  position: relative;
+  z-index: -15;
 }
 
 .achivements .achivements-Wrap {
