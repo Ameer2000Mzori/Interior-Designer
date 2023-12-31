@@ -1154,7 +1154,7 @@ body {
 }
 
 .achivements {
-  height: 100vh;
+  height: 1500px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -1221,7 +1221,7 @@ body {
 .achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Top,
 .achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Mid,
 .achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Bottom {
-  height: 33%;
+  height: 30%;
   width: 100%;
   position: relative;
   padding: 0;
