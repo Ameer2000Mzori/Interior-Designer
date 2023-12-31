@@ -1463,5 +1463,25 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    .contact-Buttons-Wrap {
+      display: flex;
+      gap: 15px;
+
+      #contact-Icons {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 2rem;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        color: white;
+        background-color: #757575;
+        text-decoration: none;
+      }
+    }
   }
 }
