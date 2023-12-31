@@ -1478,3 +1478,11 @@ body {
     width: 50%;
   }
 }
+
+.contact {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
