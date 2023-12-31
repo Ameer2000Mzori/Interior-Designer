@@ -1293,6 +1293,19 @@ body {
           height: 33%;
           width: 100%;
           position: relative;
+
+          .text-Wrap-1,
+          .text-Wrap-2,
+          .text-Wrap-3 {
+            .achive-Bottom-Text-1 {
+              font-size: 1.3rem;
+              color: rgb(112, 112, 112);
+              font-weight: 500;
+              font-family: $fontOne;
+              padding: 0;
+              margin: 0;
+            }
+          }
         }
       }
     }

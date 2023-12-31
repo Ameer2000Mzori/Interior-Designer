@@ -1224,3 +1224,29 @@ body {
   width: 100%;
   position: relative;
 }
+
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Top .text-Wrap-1 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Top .text-Wrap-2 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Top .text-Wrap-3 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Mid .text-Wrap-1 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Mid .text-Wrap-2 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Mid .text-Wrap-3 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Bottom .text-Wrap-1 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Bottom .text-Wrap-2 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Bottom .text-Wrap-3 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Top .text-Wrap-1 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Top .text-Wrap-2 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Top .text-Wrap-3 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Mid .text-Wrap-1 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Mid .text-Wrap-2 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Mid .text-Wrap-3 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Bottom .text-Wrap-1 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Bottom .text-Wrap-2 .achive-Bottom-Text-1,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Bottom .text-Wrap-3 .achive-Bottom-Text-1 {
+  font-size: 1.3rem;
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
