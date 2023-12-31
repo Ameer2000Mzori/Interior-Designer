@@ -1211,4 +1211,16 @@ body {
 .achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap,
 .achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap {
   height: 100%;
+  justify-content: flex-start;
+}
+
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Top,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Mid,
+.achivements .achivements-Wrap .achive-Bottom .achive-Bottom-Wrap .achive-Bottom-Bottom,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Top,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Mid,
+.achivements .achivements-Wrap .achive-Bottom-Wrap .achive-Bottom-Wrap .achive-Bottom-Bottom {
+  height: 33%;
+  width: 100%;
+  position: relative;
 }

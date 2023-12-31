@@ -1285,6 +1285,15 @@ body {
 
       .achive-Bottom-Wrap {
         height: 100%;
+        justify-content: flex-start;
+
+        .achive-Bottom-Top,
+        .achive-Bottom-Mid,
+        .achive-Bottom-Bottom {
+          height: 33%;
+          width: 100%;
+          position: relative;
+        }
       }
     }
   }
