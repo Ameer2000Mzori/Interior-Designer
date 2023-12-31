@@ -153,8 +153,51 @@ window.addEventListener("scroll", projectShow);
 // selecting element ACHIVEMENTS
 const achiveBottomTexts = document.querySelectorAll(".achive-Bottom-Text-2");
 
+let numOne = 0;
+let numTwo = 0;
+let numThree = 0;
 // functions
-const countAchivementsNums = () => {};
+
+const countAchivementsNums = () => {
+  if (window.scrollY > 4600) {
+    let numinterval1 = setInterval(() => {
+      numOne++;
+      if (numOne > 1563) {
+        setInterval(() => {
+          clearInterval(numinterval1);
+        });
+      } else {
+        achiveBottomTexts[0].textContent = `${numOne}`;
+      }
+    }, 200);
+
+    let numinterval2 = setInterval(() => {
+      numTwo++;
+      if (numTwo > 690) {
+        setInterval(() => {
+          clearInterval(numinterval2);
+        });
+      } else {
+        achiveBottomTexts[1].textContent = `${numTwo}`;
+      }
+    }, 200);
+
+    let numinterval3 = setInterval(() => {
+      numThree++;
+      if (numThree > 1760) {
+        setInterval(() => {
+          clearInterval(numinterval3);
+        });
+      } else {
+        achiveBottomTexts[2].textContent = `${numThree}`;
+      }
+    }, 200);
+  } else {
+    numOne = 0;
+    numTwo = 0;
+    numThree = 0;
+  }
+};
 
 // eventlinsters
 window.addEventListener("scroll", countAchivementsNums);

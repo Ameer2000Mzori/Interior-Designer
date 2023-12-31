@@ -136,7 +136,51 @@ window.addEventListener("scroll", projectShow);
 //
 // selecting element ACHIVEMENTS
 var achiveBottomTexts = document.querySelectorAll(".achive-Bottom-Text-2");
+var numOne = 0;
+var numTwo = 0;
+var numThree = 0;
 // functions
-var countAchivementsNums = function () { };
+var countAchivementsNums = function () {
+    if (window.scrollY > 4600) {
+        var numinterval1_1 = setInterval(function () {
+            numOne++;
+            if (numOne > 1563) {
+                setInterval(function () {
+                    clearInterval(numinterval1_1);
+                });
+            }
+            else {
+                achiveBottomTexts[0].textContent = "".concat(numOne);
+            }
+        }, 200);
+        var numinterval2_1 = setInterval(function () {
+            numTwo++;
+            if (numTwo > 690) {
+                setInterval(function () {
+                    clearInterval(numinterval2_1);
+                });
+            }
+            else {
+                achiveBottomTexts[1].textContent = "".concat(numTwo);
+            }
+        }, 200);
+        var numinterval3_1 = setInterval(function () {
+            numThree++;
+            if (numThree > 1760) {
+                setInterval(function () {
+                    clearInterval(numinterval3_1);
+                });
+            }
+            else {
+                achiveBottomTexts[2].textContent = "".concat(numThree);
+            }
+        }, 200);
+    }
+    else {
+        numOne = 0;
+        numTwo = 0;
+        numThree = 0;
+    }
+};
 // eventlinsters
 window.addEventListener("scroll", countAchivementsNums);
