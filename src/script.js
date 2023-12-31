@@ -132,3 +132,11 @@ var projectShow = function () {
 };
 // eventlinsters
 window.addEventListener("scroll", projectShow);
+//
+//
+// selecting element ACHIVEMENTS
+var achiveBottomTexts = document.querySelectorAll(".achive-Bottom-Text-2");
+// functions
+var countAchivementsNums = function () { };
+// eventlinsters
+window.addEventListener("scroll", countAchivementsNums);

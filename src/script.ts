@@ -148,3 +148,13 @@ const projectShow = () => {
 
 // eventlinsters
 window.addEventListener("scroll", projectShow);
+//
+//
+// selecting element ACHIVEMENTS
+const achiveBottomTexts = document.querySelectorAll(".achive-Bottom-Text-2");
+
+// functions
+const countAchivementsNums = () => {};
+
+// eventlinsters
+window.addEventListener("scroll", countAchivementsNums);
