@@ -1529,11 +1529,30 @@ body {
 
     .footer-Text-Wrap {
       height: 100%;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
+      text-align: start;
+      align-items: start;
+      justify-content: flex-start;
       flex-direction: row;
       display: flex;
+      gap: 5px;
+
+      .footer-Text-1 {
+        color: white;
+        font-family: $fontTwo;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+      }
+
+      .footer-Text-2 {
+        color: #a31717;
+        font-family: $fontTwo;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 }
