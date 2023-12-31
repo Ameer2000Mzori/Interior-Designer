@@ -1539,3 +1539,13 @@ body {
   letter-spacing: 5px;
   font-size: 1.2rem;
 }
+
+.footer {
+  height: 10vh;
+  margin-bottom: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
