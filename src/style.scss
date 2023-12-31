@@ -1518,4 +1518,22 @@ body {
   justify-content: center;
   flex-direction: column;
   display: flex;
+
+  .footer-Wrap {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+    .footer-Text-Wrap {
+      height: 100%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      display: flex;
+    }
+  }
 }

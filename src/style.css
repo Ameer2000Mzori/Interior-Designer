@@ -1549,3 +1549,21 @@ body {
   flex-direction: column;
   display: flex;
 }
+
+.footer .footer-Wrap {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer .footer-Wrap .footer-Text-Wrap {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
