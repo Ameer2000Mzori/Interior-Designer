@@ -1282,6 +1282,7 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
+      margin-top: 5rem;
 
       .achive-Bottom-Wrap {
         height: 100%;
@@ -1293,12 +1294,39 @@ body {
           height: 33%;
           width: 100%;
           position: relative;
+          padding: 0;
+          margin: 0;
+
+          .text-Wrap-1 {
+            position: absolute;
+            left: 15%;
+          }
+
+          .text-Wrap-2 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+          .text-Wrap-3 {
+            position: absolute;
+            right: 15%;
+          }
 
           .text-Wrap-1,
           .text-Wrap-2,
           .text-Wrap-3 {
+            padding: 0;
+            margin: 0;
+            text-align: start;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+
             .achive-Bottom-Text-1 {
-              font-size: 2rem;
+              font-size: 1.5rem;
               color: rgb(112, 112, 112);
               font-weight: 300;
               font-family: $fontOne;
@@ -1307,9 +1335,9 @@ body {
             }
 
             .achive-Bottom-Text-2 {
-              font-size: 10rem;
+              font-size: 11rem;
               color: #a31717;
-              font-weight: 600;
+              font-weight: 400;
               font-family: $fontThree;
               padding: 0;
               margin: 0;
