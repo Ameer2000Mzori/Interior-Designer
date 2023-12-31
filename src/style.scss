@@ -1350,5 +1350,99 @@ body {
 }
 // achivements responsvnes
 @media screen and (max-width: 768px) {
-  //  768px size
+  // achivements
+  .achivements {
+    height: 1500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    .achivements-Wrap {
+      height: 90%;
+      width: 90%;
+      text-align: center;
+      align-items: center;
+      justify-content: flex-start;
+      display: flex;
+      flex-direction: column;
+
+      .achiv-Top {
+        height: 10%;
+        width: 100%;
+
+        .achive-Top-Wrap {
+          .achive-Top-Text-1 {
+            color: rgb(87, 86, 86);
+            font-family: $fontThree;
+            font-weight: 600;
+            letter-spacing: 5px;
+            padding: 0;
+            margin: 0;
+          }
+
+          .achive-Top-Text-2 {
+            font-family: $fontTwo;
+            color: #ccc;
+            font-weight: 600;
+            padding: 0;
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 5px;
+          }
+        }
+      }
+
+      .achive-Bottom,
+      .achive-Bottom-Wrap {
+        .achive-Bottom-Wrap {
+          .achive-Bottom-Top,
+          .achive-Bottom-Mid,
+          .achive-Bottom-Bottom {
+            width: 100%;
+
+            .text-Wrap-1,
+            .text-Wrap-2,
+            .text-Wrap-3 {
+              .achive-Bottom-Text-1 {
+                font-size: 1rem;
+              }
+
+              .achive-Bottom-Text-2 {
+                font-size: 6rem;
+              }
+            }
+
+            .text-Wrap-1 {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+            }
+
+            .text-Wrap-2 {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+            }
+
+            .text-Wrap-3 {
+              position: absolute;
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              flex-direction: column;
+              left: 25%;
+              top: 50%;
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
 }
