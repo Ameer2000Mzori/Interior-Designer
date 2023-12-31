@@ -1485,6 +1485,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .contact .contact-Wrap {
@@ -1514,4 +1515,27 @@ body {
   color: white;
   background-color: #757575;
   text-decoration: none;
+}
+
+.contact .contact-Wrap .contact-Text-Wrap {
+  margin-top: 2rem;
+}
+
+.contact .contact-Wrap .contact-Text-Wrap .contact-Text-1 {
+  font-size: 1rem;
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.contact .contact-Wrap .contact-Text-Wrap .contact-Text-2 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-size: 1.2rem;
 }
