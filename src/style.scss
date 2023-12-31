@@ -1236,14 +1236,41 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
 
   .achivements-Wrap {
     height: 90%;
     width: 90%;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     flex-direction: column;
+
+    .achiv-Top {
+      height: 10%;
+      width: 100%;
+
+      .achive-Top-Wrap {
+        .achive-Top-Text-1 {
+          color: rgb(87, 86, 86);
+          font-family: $fontThree;
+          font-weight: 600;
+          letter-spacing: 5px;
+          padding: 0;
+          margin: 0;
+        }
+
+        .achive-Top-Text-2 {
+          font-family: $fontTwo;
+          color: #ccc;
+          font-weight: 600;
+          padding: 0;
+          margin: 0;
+          font-size: 2.5rem;
+          letter-spacing: 5px;
+        }
+      }
+    }
   }
 }
